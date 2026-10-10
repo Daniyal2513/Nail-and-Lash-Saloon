@@ -48,7 +48,7 @@ img { display: block; width: 100%; }
 .eyebrow.light { color: #e1c7ae; }
 .hero-kicker { animation: slideUp .8s .1s both; }
 .hero h1 { font-family: "Cormorant Garamond"; font-size: clamp(68px, 8.1vw, 128px); line-height: .78; letter-spacing: -.045em; font-weight: 400; margin: 0; animation: slideUp .9s .2s both; }
-.hero h1 span { margin-left: 1vw; }
+.hero h1 span { margin-left: 0vw; }
 .hero h1 em { font-weight: 400; color: #e6cbb2; }
 .hero-copy { max-width: 480px; font-size: 15px; line-height: 1.9; font-weight: 300; color: rgba(255,255,255,.82); margin: 42px 0 34px 11vw; animation: slideUp .9s .35s both; }
 .primary-button { margin-left: 11vw; width: fit-content; padding: 18px 25px; background: var(--maroon); display: flex; gap: 28px; align-items: center; text-transform: uppercase; font-size: 10px; letter-spacing: .18em; transition: background .4s, transform .4s; animation: slideUp .9s .45s both; }
