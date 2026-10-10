@@ -43,7 +43,7 @@ img { display: block; width: 100%; }
 .hero { height: max(760px, 100vh); min-height: 700px; position: relative; color: white; overflow: hidden; }
 .hero-image { position: absolute; inset: -4%; background-image: url("https://images.unsplash.com/photo-1610992015732-2449b76344bc?auto=format&fit=crop&w=2200&q=90"); background-size: cover; background-position: center 48%; animation: heroScale 12s ease-out both; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(29,13,12,.72) 0%, rgba(35,16,14,.35) 48%, rgba(33,15,14,.2)), linear-gradient(0deg, rgba(30,13,13,.35), transparent 40%); }
-.hero-content { position: absolute; left: clamp(24px, 9vw, 145px); top: 52%; transform: translateY(-45%); max-width: 790px; }
+.hero-content { position: absolute; left: clamp(14px, 9vw, 145px); top: 52%; transform: translateY(-45%); max-width: 790px; }
 .eyebrow { color: var(--maroon); text-transform: uppercase; letter-spacing: .29em; font-size: 10px; font-weight: 600; margin: 0 0 24px; }
 .eyebrow.light { color: #e1c7ae; }
 .hero-kicker { animation: slideUp .8s .1s both; }
