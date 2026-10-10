@@ -1,0 +1,10 @@
+{
+  "description": "Offers a luxurious, interactive platform for booking premium nail and lash extension services with elegant design and seamless scheduling features.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
