@@ -57,7 +57,7 @@ img { display: block; width: 100%; }
 .scroll-line { height: 1px; width: 54px; background: rgba(255,255,255,.5); }
 
 .intro { padding: 150px clamp(24px, 8vw, 130px); display: grid; grid-template-columns: 1.2fr .8fr; column-gap: 9vw; }
-.intro-statement h2, .section-heading h2, .contact-content h2 { font-family: "Cormorant Garamond"; font-size: clamp(55px, 6vw, 92px); line-height: .9; font-weight: 400; letter-spacing: -.04em; margin: 0; }
+.intro-statement h2, .section-heading h2, .contact-content h2 { font-family: "Cormorant Garamond"; font-size: clamp(55px, 6vw, 92px); line-height: 1.0; font-weight: 400; letter-spacing: -.04em; margin: 0; }
 .intro-statement h2 em, .contact-content h2 em { color: var(--maroon); font-weight: 400; }
 .intro-copy { align-self: end; padding-bottom: 6px; }
 .intro-copy > p { line-height: 1.95; color: var(--muted); font-size: 14px; max-width: 490px; }
