@@ -50,8 +50,8 @@ img { display: block; width: 100%; }
 .hero h1 { font-family: "Cormorant Garamond"; font-size: clamp(68px, 8.1vw, 128px); line-height: .80; letter-spacing: -.045em; font-weight: 400; margin: 0; animation: slideUp .9s .2s both; }
 .hero h1 span { margin-left: 0vw; }
 .hero h1 em { font-weight: 400; color: #e6cbb2; }
-.hero-copy { max-width: 480px; font-size: 15px; line-height: 1.9; font-weight: 300; color: rgba(255,255,255,.82); margin: 42px 0 34px 11vw; animation: slideUp .9s .35s both; }
-.primary-button { margin-left: 11vw; width: fit-content; padding: 18px 25px; background: var(--maroon); display: flex; gap: 28px; align-items: center; text-transform: uppercase; font-size: 10px; letter-spacing: .18em; transition: background .4s, transform .4s; animation: slideUp .9s .45s both; }
+.hero-copy { max-width: 480px; font-size: 15px; line-height: 1.9; font-weight: 300; color: rgba(255,255,255,.82); margin: 42px 0 34px 0vw; animation: slideUp .9s .35s both; }
+.primary-button { margin-left: 0vw; width: fit-content; padding: 18px 25px; background: var(--maroon); display: flex; gap: 28px; align-items: center; text-transform: uppercase; font-size: 10px; letter-spacing: .18em; transition: background .4s, transform .4s; animation: slideUp .9s .45s both; }
 .primary-button:hover { background: var(--maroon-dark); transform: translateY(-2px); }
 .hero-foot { position: absolute; left: clamp(24px, 5vw, 80px); right: clamp(24px, 5vw, 80px); bottom: 32px; display: flex; align-items: center; gap: 22px; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; }
 .scroll-line { height: 1px; width: 54px; background: rgba(255,255,255,.5); }
